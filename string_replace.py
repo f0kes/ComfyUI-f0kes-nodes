@@ -49,7 +49,7 @@ class InputStringConstructor:
         if include_sub_folder == "enable":
             return (base_folder + model_folder + "/" + sub_folder + "/" + animation_name+ " / " + rotation,)
         else:
-            return (base_folder + model_folder + "/" +animation_name+ " / " + rotation,)
+            return (base_folder + model_folder + "/" +animation_name+ "/" + rotation,)
 
     #@classmethod
     #def IS_CHANGED(s, image, string_field, int_field, float_field, print_to_screen):
