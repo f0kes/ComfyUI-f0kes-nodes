@@ -24,7 +24,7 @@ class InputStringConstructor:
     RETURN_TYPES = ("STRING",)
     #RETURN_NAMES = ("image_output_name",)
 
-    FUNCTION = "test"
+    FUNCTION = "dojob"
 
     #OUTPUT_NODE = False
 
