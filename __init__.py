@@ -1,5 +1,6 @@
 from .string_replace import InputStringConstructor
 from .split_by_new_line import StringSplitter, UnzipStrings
+from .number_of_files_in_dir import FileCounter
 
 NODE_CLASS_MAPPINGS = {
     "InputStringConstructor": InputStringConstructor,
@@ -11,6 +12,7 @@ NODE_CLASS_MAPPINGS = {
 NODE_DISPLAY_NAME_MAPPINGS = {
     "InputStringConstructor": "Input String Constructor Node",
     "StringSplitter": "String Splitter Node",
-    "UnzipStrings": "Unzip Strings Node"
+    "UnzipStrings": "Unzip Strings Node",
+    "FileCounter": "File Counter Node"
 }
-__all__ = ["InputStringConstructor", "StringSplitter", "UnzipStrings"]
+__all__ = ["InputStringConstructor", "StringSplitter", "UnzipStrings", "FileCounter"]
