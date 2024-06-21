@@ -5,7 +5,8 @@ from .number_of_files_in_dir import FileCounter
 NODE_CLASS_MAPPINGS = {
     "InputStringConstructor": InputStringConstructor,
     "StringSplitter": StringSplitter,
-    "UnzipStrings": UnzipStrings
+    "UnzipStrings": UnzipStrings,
+    "FileCounter": FileCounter
 }
 
 # A dictionary that contains the friendly/humanly readable titles for the nodes
