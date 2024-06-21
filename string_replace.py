@@ -47,7 +47,7 @@ class InputStringConstructor:
             rotation: {rotation}
         """)
         if include_sub_folder == "enable":
-            return (base_folder + model_folder + "/" + sub_folder + "/" + animation_name+ " / " + rotation,)
+            return (base_folder + model_folder + "/" + sub_folder + "/" + animation_name+ "/" + rotation,)
         else:
             return (base_folder + model_folder + "/" +animation_name+ "/" + rotation,)
 
