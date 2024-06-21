@@ -31,14 +31,14 @@ class InputStringConstructor:
     CATEGORY = "String Constructor"
 
     def dojob(self, base_folder, model_folder, rotation):
+        print(f"""Your input contains:
+            base_folder: {base_folder}
+            model_folder: {model_folder}
+            rotation: {rotation}
+        """)
         return base_folder + model_folder + rotation
 
     #@classmethod
     #def IS_CHANGED(s, image, string_field, int_field, float_field, print_to_screen):
     #    return ""
 
-# Set the web directory, any .js file in that directory will be loaded by the frontend as a frontend extension
-# WEB_DIRECTORY = "./somejs"
-
-# A dictionary that contains all nodes you want to export with their names
-# NOTE: names should be globally unique
