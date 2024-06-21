@@ -43,4 +43,4 @@ class UnzipStrings:
     FUNCTION = "dojob"
     CATEGORY = "String Constructor/Splitter"
     def dojob(self, zipped_string):
-        return zipped_string
+        return (zipped_string,)
