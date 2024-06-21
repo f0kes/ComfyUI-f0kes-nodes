@@ -1,4 +1,4 @@
-from . import InputStringConstructor
+from .string_replace import InputStringConstructor
 NODE_CLASS_MAPPINGS = {
     "InputStringConstructor": InputStringConstructor
 }
