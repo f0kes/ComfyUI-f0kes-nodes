@@ -28,7 +28,7 @@ class StringSplitter:
         print(f"""Your input contains:
             strings: {strings}
         """)
-        return strings.split("\n")
+        return (strings.split("\n"),)
 
     #@classmethod
     #def IS_CHANGED(s, image, string_field, int_field, float_field, print_to_screen):

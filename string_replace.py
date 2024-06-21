@@ -36,7 +36,7 @@ class InputStringConstructor:
             model_folder: {model_folder}
             rotation: {rotation}
         """)
-        return base_folder + model_folder + rotation
+        return (base_folder + model_folder + rotation,)
 
     #@classmethod
     #def IS_CHANGED(s, image, string_field, int_field, float_field, print_to_screen):
