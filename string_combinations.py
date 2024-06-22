@@ -11,7 +11,7 @@ class StringCombinations:
             },
         }
 
-    RETURN_TYPES = ("STRING","STRING",)
+    RETURN_TYPES = ("ZIPPED_STRING","ZIPPED_STRING",)
     RETURN_NAMES = ("first string", "second string",)
     OUTPUT_IS_LIST = (True,)
     FUNCTION = "dojob"
