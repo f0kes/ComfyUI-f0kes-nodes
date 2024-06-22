@@ -25,7 +25,7 @@ class StringCombinations:
         combinations = [(a, b) for a in first_zipped for b in second_zipped]
         first_elements = [a for a, b in combinations]
         second_elements = [b for a, b in combinations]
-        return (first_elements, second_elements,)
+        return first_elements, second_elements
 
     #@classmethod
     #def IS_CHANGED(s, image, string_field, int_field, float_field, print_to_screen):
