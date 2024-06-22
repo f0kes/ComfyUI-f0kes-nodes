@@ -1,4 +1,4 @@
-from string_combinations import StringCombinations
+from .string_combinations import StringCombinations
 from .string_replace import InputStringConstructor
 from .split_by_new_line import StringSplitter, UnzipStrings
 from .number_of_files_in_dir import FileCounter
@@ -8,7 +8,7 @@ NODE_CLASS_MAPPINGS = {
     "StringSplitter": StringSplitter,
     "UnzipStrings": UnzipStrings,
     "FileCounter": FileCounter,
-    "StringCombinations": StringCombinations
+    "StringCombinations": StringCombinations,
 }
 
 # A dictionary that contains the friendly/humanly readable titles for the nodes
