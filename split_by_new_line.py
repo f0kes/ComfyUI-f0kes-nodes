@@ -15,7 +15,7 @@ class StringSplitter:
 
     RETURN_TYPES = ("ZIPPED_STRING",)
     RETURN_NAMES = ("zipped_string",)
-    OUTPUT_IS_LIST = (True,)
+    #OUTPUT_IS_LIST = (True,)
 
 
     FUNCTION = "dojob"
