@@ -13,7 +13,7 @@ class StringCombinations:
 
     RETURN_TYPES = ("ZIPPED_STRING","ZIPPED_STRING",)
     RETURN_NAMES = ("first string", "second string",)
-    OUTPUT_IS_LIST = (True,)
+    OUTPUT_IS_LIST = (True,True,)
     FUNCTION = "dojob"
 
     #OUTPUT_NODE = False
